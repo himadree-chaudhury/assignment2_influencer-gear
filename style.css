@@ -20,6 +20,7 @@ body {
   font-size: 62.5%;
   max-width: 120rem;
   margin: 0 auto;
+  width: 95vw;
 }
 .navigation {
   display: flex;
@@ -80,6 +81,10 @@ body {
     background-repeat: no-repeat; */
   display: flex;
   justify-content: end;
+  object-fit: cover;
+}
+.welcome-container__pic img{
+    object-fit: cover;
 }
 .btn--utility {
   padding: 10px 24px;
