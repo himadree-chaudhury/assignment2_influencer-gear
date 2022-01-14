@@ -7,45 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Gear</title>
     <link rel="shortcut icon" href="images/main-camera.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/fa82d04b07.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-
+        <nav class="navigation">
+            <div class="navigation__logo">
+                <p>Influencer products</p>
+            </div>
+            <div class="navigation__menu">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Sign up</a>
+                <a href="#">Log In</a>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
         </nav>
     </header>
 
     <main>
         <section class="welcome-container">
             <div class="welcome-container__msg">
-
+                <div class="welcome-container__msg--body">
+                    <h1>Start your Journey as
+                        Influencer</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros.
+                        Lectus faucibus.</p>
+                    <a href="#" class="btn--utility">Preebook now <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
             <div class="welcome-container__pic">
-
+                <img src="./images/main-camera.png" alt="">
             </div>
         </section>
         <section class="partner-container">
-            <div class="partner partner__1"></div>
-            <div class="partner partner__2"></div>
-            <div class="partner partner__3"></div>
-            <div class="partner partner__4"></div>
-            <div class="partner partner__5"></div>
-            <div class="partner partner__6"></div>
-            <div class="partner partner__7"></div>
+            <div class="partner partner__1"><img src="./logos/Alibaba.svg" alt=""></div>
+            <div class="partner partner__2"><img src="./logos/Amazon.svg" alt=""></div>
+            <div class="partner partner__3"><img src="./logos/Daraz.pk Logo.svg" alt=""></div>
+            <div class="partner partner__4"><img src="./logos/Ebay.svg" alt=""></div>
+            <div class="partner partner__5"><img src="./logos/Rakuten.svg" alt=""></div>
+            <div class="partner partner__6"><img src="./logos/Walmart.svg" alt=""></div>
+            <div class="partner partner__7"><img src="./logos/Target.svg" alt=""></div>
         </section>
         <section class="product-container">
+            <h1>Popular Collection</h1>
             <div class="products">
-                <div class="products__1"></div>
-                <div class="products__2"></div>
-                <div class="products__3"></div>
-                <div class="products__4"></div>
-                <div class="products__5"></div>
-                <div class="products__6"></div>
-                <div class="products__7"></div>
-                <div class="products__8"></div>
-                <div class="products__9"></div>
+                <div class="products__1 product--utility">
+                    <img src="./images/tripod.png" alt="">
+                    <h2>Flex Tripod</h2>
+                <h3>$50.48</h3>
+                <div class="product--ratings">
+                    <span class="rating--color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                    <span>4.99</span>
+                </div>
+                <p>Wordwide shifting available
+                    Buyers protection possible!</p>
+                </div>
+                <div class="products__2 product--utility"></div>
+                <div class="products__3 product--utility"></div>
+                <div class="products__4 product--utility"></div>
+                <div class="products__5 product--utility"></div>
+                <div class="products__6 product--utility"></div>
+                <div class="products__7 product--utility"></div>
+                <div class="products__8 product--utility"></div>
+                <div class="products__9 product--utility"></div>
             </div>
         </section>
     </main>
