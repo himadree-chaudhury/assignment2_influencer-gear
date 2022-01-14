@@ -108,6 +108,9 @@ body {
 top: 23.26%; */
   align-items: center;
 }
+.product-container{
+    margin-bottom: 15rem;
+}
 .product-container h1 {
   text-align: center;
   font-style: normal;
@@ -139,7 +142,7 @@ top: 23.26%; */
   border: 5px solid white;
 }
 .product--utility img {
-  width: 393px;
+  width: 100%;
   object-fit: cover;
 }
 .product--ratings {
