@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 150px;
+  background-color: chocolate;
+}
+.container__main {
+  background-image: linear-gradient(105deg, white 0%,white 45%, transparent 45%), url(./images/join.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px black;
+}
+.form{
+    padding-top: 50px;
+    width: 45%;
+    text-align: center;
+}
+.form h1{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.form h3{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.email{
+    font-size: 24px;
+margin-bottom: 50px;
+padding: 5px;
+    border-radius: 5px;
+}
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 4rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  background: #e02c6d;
+  color: #fff;
+  box-shadow: 0 5px 5px #000;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.658);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
