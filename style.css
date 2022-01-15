@@ -418,3 +418,44 @@ body {
     margin-bottom: 0.5rem;
   }
 }
+@media only screen and (max-width: 500px){
+  .join-us {
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+  .join-us__container {
+    height: 18rem;
+  }
+  .form h1 {
+    font-size: 2rem;
+  }
+  .form h3 {
+    font-size: .9rem;
+    margin-bottom: 0.5rem;
+  }
+  .email {
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+}
+@media only screen and (max-width: 400px){
+  .join-us {
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+  .join-us__container {
+    height: 14rem;
+  }
+  .form h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+  }
+  .form h3 {
+    font-size: .8rem;
+    margin-bottom: 0rem;
+  }
+  .email {
+    font-size: 0.4rem;
+    margin-bottom: 0rem;
+  }
+}
