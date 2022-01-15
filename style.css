@@ -95,7 +95,6 @@ body {
 ! Universal Btn Design
 */
 
-
 .btn:link,
 .btn:visited {
   text-decoration: none;
@@ -126,7 +125,6 @@ body {
 * Partner Section
 */
 
-
 .partner-container {
   display: flex;
   width: 90%;
@@ -143,7 +141,6 @@ body {
 /*
 * Product Section
 */
-
 
 .product-container {
   width: 90%;
@@ -229,7 +226,6 @@ body {
 * Affiliate Section
 */
 
-
 .join-us {
   padding: 5rem;
   margin-bottom: 5rem;
@@ -308,12 +304,9 @@ body {
   color: #e02c6d;
 }
 
-
-
 /*
 *MEDIA QUERY
 */
-
 
 /*
 ? This query perfectly works in 992px only
@@ -365,7 +358,6 @@ body {
 ? This query perfectly works in 768px only
 */
 
-
 @media only screen and (max-width: 768px) {
   .navigation {
     margin-bottom: 1rem;
@@ -414,13 +406,12 @@ body {
 ? This query perfectly works in 576px only
 */
 
-
 @media only screen and (max-width: 576px) {
-  .navigation__menu{
+  .navigation__menu {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
-  .navigation__menu a{
+  .navigation__menu a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -434,12 +425,12 @@ body {
     line-height: 1rem;
     padding-top: 3rem;
   }
-  .welcome-container__msg h1{
+  .welcome-container__msg h1 {
     font-size: 4rem;
   }
   .partner-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .products {
     display: grid;
@@ -474,8 +465,7 @@ body {
 ? This query perfectly works in 500px only
 */
 
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
   .join-us {
     padding: 1rem;
     margin-bottom: 3rem;
@@ -487,7 +477,7 @@ body {
     font-size: 2rem;
   }
   .form h3 {
-    font-size: .9rem;
+    font-size: 0.9rem;
     margin-bottom: 0.5rem;
   }
   .email {
@@ -500,8 +490,11 @@ body {
 ? This query perfectly works in 400px only
 */
 
-
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 400px) {
+  .partner-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   .join-us {
     padding: 1rem;
     margin-bottom: 3rem;
@@ -514,15 +507,76 @@ body {
     margin-bottom: 0rem;
   }
   .form h3 {
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin-bottom: 0rem;
   }
   .email {
     font-size: 0.4rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0.2rem;
   }
 }
 
 /*
 ? This query perfectly works in 300px only
 */
+
+@media only screen and (max-width: 300px) {
+  .navigation__logo {
+    font-size: 2rem;
+  }
+  .navigation__menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .navigation__menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+  .navigation {
+    margin-bottom: 0.5rem;
+  }
+  .navigation__logo {
+    font-size: 1.8rem;
+    line-height: 1rem;
+    padding-top: 3rem;
+  }
+  .welcome-container__msg h1 {
+    font-size: 3rem;
+  }
+  .partner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .join-us {
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+  .join-us__container {
+    height: 10rem;
+  }
+  .form h1 {
+    margin-top: 0rem;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    padding: 0;
+  }
+  .form h3 {
+    font-size: 0.6rem;
+    margin-bottom: 0rem;
+  }
+  .email {
+    font-size: 0.3rem;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.349);
+  }
+  .footer p {
+    font-size: 1rem;
+  }
+}
