@@ -71,14 +71,7 @@ body {
   font-weight: 500;
   margin-bottom: 1.6rem;
 }
-/* .welcome-container__msg--body {
-  height: 27rem;
-  width: 58.5rem;
-}
- */
 .welcome-container__pic {
-  /* background-image: url(images/Circle\ design.svg);
-    background-repeat: no-repeat; */
   display: flex;
   justify-content: end;
 }
@@ -91,7 +84,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
-  padding: 1rem 2.4rem;
+  padding: 1rem 2rem;
   border-radius: 4rem;
   transition: all 0.2s;
   position: relative;
@@ -99,7 +92,7 @@ body {
   font-weight: 500;
   background: #e02c6d;
   color: #fff;
-  box-shadow: 0 1rem 2rem #000;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.349);
 }
 
 .btn:hover {
@@ -159,6 +152,10 @@ body {
   box-shadow: 0.1rem 0.1rem 1rem #777;
   border-radius: 0.3rem;
   border: 5px solid white;
+  transition: all 0.5s ease;
+}
+.product--utility:hover {
+  transform: scale(1.1);
 }
 .product--utility img {
   width: 100%;
@@ -183,7 +180,7 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
   font-weight: bold;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -196,4 +193,45 @@ body {
 }
 .product--more p:hover {
   border-bottom: 5px solid #e02c6dde;
+}
+
+.join-us {
+  padding: 5rem;
+  background-color: #e02c6e1e;
+  margin-bottom: 5rem;
+}
+.join-us__container {
+  background-image: linear-gradient(
+      105deg,
+      white 0%,
+      white 45%,
+      transparent 45%
+    ),
+    url(./images/join.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 40rem;
+  display: flex;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 2rem black;
+}
+.form {
+  padding-top: 2rem;
+  width: 45%;
+  text-align: center;
+}
+.form h1 {
+  padding: 2rem;
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+.form h3 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.email {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
