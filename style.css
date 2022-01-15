@@ -76,6 +76,7 @@ body {
   justify-content: end;
 }
 .welcome-container__pic img {
+  width: 100%;
   object-fit: cover;
 }
 
@@ -150,6 +151,7 @@ body {
   height: 4.5rem;
   padding: 1rem;
   height: 40rem;
+  overflow: auto;
   box-shadow: 0.1rem 0.1rem 1rem #777;
   border-radius: 0.3rem;
   border: 5px solid white;
@@ -257,15 +259,158 @@ body {
   flex-direction: column;
   font-size: 1.1rem;
   padding-bottom: 1rem;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
-.links{
+.links {
   cursor: pointer;
   font-size: 2.4rem;
   text-align: center;
   letter-spacing: 1rem;
   padding-bottom: 2rem;
 }
-.links a:hover{
+.links a:hover {
   color: #e02c6d;
+}
+
+
+
+/*
+*MEDIA QUERY
+*/
+
+@media only screen and (max-width: 992px) {
+  .navigation {
+    flex-direction: column;
+  }
+  .welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .welcome-container__pic img {
+    object-fit: cover;
+  }
+  .join-us {
+    padding: 5rem;
+    margin-bottom: 5rem;
+  }
+  .join-us__container {
+    height: 30rem;
+  }
+  .form h1 {
+    padding: 1rem;
+    font-size: 3rem;
+  }
+  .form h3 {
+    font-size: 1.8rem;
+  }
+  .email {
+    font-size: 1rem;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.178);
+  }
+  .footer {
+    line-height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation {
+    margin-bottom: 1rem;
+    line-height: 5rem;
+  }
+  .navigation__logo {
+    line-height: 3rem;
+    padding-top: 1rem;
+  }
+  .welcome-container {
+    margin-bottom: 5rem;
+  }
+  .partner-container {
+    margin-bottom: 5rem;
+  }
+  .products {
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  .product--more {
+    margin-bottom: 1rem;
+  }
+  .join-us {
+    padding: 3rem;
+    margin-bottom: 3rem;
+  }
+  .join-us__container {
+    height: 22rem;
+  }
+  .form h1 {
+    font-size: 2rem;
+  }
+  .form h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .email {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .navigation__menu{
+    display: flex;
+  }
+  .navigation__menu a:not(:last-child) {
+    padding-right: 1rem;
+  }
+  .navigation {
+    margin-bottom: 0.5rem;
+    line-height: 1rem;
+  }
+  .navigation__logo {
+    line-height: 1rem;
+    padding-top: 3rem;
+  }
+  .welcome-container__msg h1{
+    font-size: 4rem;
+  }
+  .partner-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+    margin: 0 auto 2rem auto;
+  }
+  .product--more {
+    justify-content: center;
+  }
+  .join-us {
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+  .join-us__container {
+    height: 20rem;
+  }
+  .form h1 {
+    font-size: 2rem;
+  }
+  .form h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .email {
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
 }
