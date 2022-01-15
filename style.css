@@ -1,7 +1,6 @@
 /* 
 * FONTS
 font-family: 'Inter', sans-serif;
-font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 
 */
@@ -256,9 +255,14 @@ body {
   flex-direction: column;
   font-size: 1.1rem;
   padding-bottom: 1rem;
+  font-family: 'Manrope', sans-serif;
 }
-.links {
+.links{
+  cursor: pointer;
   font-size: 2.4rem;
   text-align: center;
   letter-spacing: 1rem;
+}
+.links a:hover{
+  color: #e02c6d;
 }
