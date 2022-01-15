@@ -1,8 +1,5 @@
 /* 
-* FONTS
-font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
-
+*Font Script
 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope&family=Poppins:wght@400;700;900&display=swap");
 
@@ -22,6 +19,15 @@ body {
   width: 97vw;
   background-color: #e02c6e1e;
 }
+
+/*
+* Header
+*/
+
+/*
+* Navigation
+*/
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -53,6 +59,11 @@ body {
 .navigation__menu a:hover {
   color: #e02c6d;
 }
+
+/*
+*Welcome-section
+*/
+
 .welcome-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -80,6 +91,11 @@ body {
   object-fit: cover;
 }
 
+/*
+! Universal Btn Design
+*/
+
+
 .btn:link,
 .btn:visited {
   text-decoration: none;
@@ -106,6 +122,11 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
+/*
+* Partner Section
+*/
+
+
 .partner-container {
   display: flex;
   width: 90%;
@@ -118,6 +139,12 @@ body {
 .partner {
   display: inline-block;
 }
+
+/*
+* Product Section
+*/
+
+
 .product-container {
   width: 90%;
   margin: 0 auto;
@@ -198,6 +225,11 @@ body {
   border-bottom: 5px solid #e02c6dde;
 }
 
+/*
+* Affiliate Section
+*/
+
+
 .join-us {
   padding: 5rem;
   margin-bottom: 5rem;
@@ -239,6 +271,10 @@ body {
   border-radius: 1rem;
 }
 
+/*
+* Footer Section
+*/
+
 .footer {
   background-color: #0a0826;
   line-height: 3rem;
@@ -276,6 +312,11 @@ body {
 
 /*
 *MEDIA QUERY
+*/
+
+
+/*
+? This query perfectly works in 992px only
 */
 
 @media only screen and (max-width: 992px) {
@@ -320,6 +361,11 @@ body {
   }
 }
 
+/*
+? This query perfectly works in 768px only
+*/
+
+
 @media only screen and (max-width: 768px) {
   .navigation {
     margin-bottom: 1rem;
@@ -363,6 +409,11 @@ body {
     margin-bottom: 0.5rem;
   }
 }
+
+/*
+? This query perfectly works in 576px only
+*/
+
 
 @media only screen and (max-width: 576px) {
   .navigation__menu{
@@ -418,6 +469,12 @@ body {
     margin-bottom: 0.5rem;
   }
 }
+
+/*
+? This query perfectly works in 500px only
+*/
+
+
 @media only screen and (max-width: 500px){
   .join-us {
     padding: 1rem;
@@ -438,6 +495,12 @@ body {
     margin-bottom: 0.5rem;
   }
 }
+
+/*
+? This query perfectly works in 400px only
+*/
+
+
 @media only screen and (max-width: 400px){
   .join-us {
     padding: 1rem;
@@ -459,3 +522,7 @@ body {
     margin-bottom: 0rem;
   }
 }
+
+/*
+? This query perfectly works in 300px only
+*/
